@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.04766ea3.css",
-    "main.js": "/static/js/main.3b90e33e.js",
+    "main.css": "/static/css/main.791c7eaa.css",
+    "main.js": "/static/js/main.843c49be.js",
     "static/media/logo.svg": "/static/media/logo.0365c9803c1e9155f530b17d7e5a8ad1.svg",
     "static/media/KZT.svg": "/static/media/KZT.781fbde8446f8cd786f72ae6c15ab4a9.svg",
     "static/media/baked_by.svg": "/static/media/baked_by.7695c18ea41b5a92b360122a87f44e94.svg",
@@ -13,11 +13,11 @@
     "static/media/EUR.svg": "/static/media/EUR.3edb37dd791d0643e3e230f645b9a6e3.svg",
     "static/media/RUB.svg": "/static/media/RUB.2378f8c417bc1cc0804a76abcb8f6b77.svg",
     "static/media/UAH.svg": "/static/media/UAH.67a46bf793e26237ace0ff44b2eff6b6.svg",
-    "main.04766ea3.css.map": "/static/css/main.04766ea3.css.map",
-    "main.3b90e33e.js.map": "/static/js/main.3b90e33e.js.map"
+    "main.791c7eaa.css.map": "/static/css/main.791c7eaa.css.map",
+    "main.843c49be.js.map": "/static/js/main.843c49be.js.map"
   },
   "entrypoints": [
-    "static/css/main.04766ea3.css",
-    "static/js/main.3b90e33e.js"
+    "static/css/main.791c7eaa.css",
+    "static/js/main.843c49be.js"
   ]
 }
