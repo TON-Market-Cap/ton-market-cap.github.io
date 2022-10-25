@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d0062a4.css",
-    "main.js": "/static/js/main.a47ad117.js",
+    "main.css": "/static/css/main.4e2335e1.css",
+    "main.js": "/static/js/main.6938986e.js",
     "static/media/logo.svg": "/static/media/logo.0365c9803c1e9155f530b17d7e5a8ad1.svg",
     "static/media/KZT.svg": "/static/media/KZT.781fbde8446f8cd786f72ae6c15ab4a9.svg",
     "static/media/baked_by.svg": "/static/media/baked_by.7695c18ea41b5a92b360122a87f44e94.svg",
@@ -13,11 +13,11 @@
     "static/media/EUR.svg": "/static/media/EUR.3edb37dd791d0643e3e230f645b9a6e3.svg",
     "static/media/RUB.svg": "/static/media/RUB.2378f8c417bc1cc0804a76abcb8f6b77.svg",
     "static/media/UAH.svg": "/static/media/UAH.67a46bf793e26237ace0ff44b2eff6b6.svg",
-    "main.9d0062a4.css.map": "/static/css/main.9d0062a4.css.map",
-    "main.a47ad117.js.map": "/static/js/main.a47ad117.js.map"
+    "main.4e2335e1.css.map": "/static/css/main.4e2335e1.css.map",
+    "main.6938986e.js.map": "/static/js/main.6938986e.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d0062a4.css",
-    "static/js/main.a47ad117.js"
+    "static/css/main.4e2335e1.css",
+    "static/js/main.6938986e.js"
   ]
 }
