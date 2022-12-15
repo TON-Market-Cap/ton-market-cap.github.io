@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        async function auth() {
+            const publicKeyCredentialCreationOptions = {
+                challenge: Uint8Array.from("UZSL85T9AFC", c => c.charCodeAt(0)),
+                rp: {
+                    name: "Duo Security",
+                    id: "localhost",
+                },
+                user: {
+                    id: Uint8Array.from("UZSL85T9AFC", c => c.charCodeAt(0)),
+                    name: "123",
+                    displayName: "123",
+                },
+                excludeCredentials: [
+                    {
+                        "id": Uint8Array.from("UZSL85T9AFC", c => c.charCodeAt(0)), 
+                        "type": "public-key", 
+                        "transports": []
+                    }
+                ],
+                pubKeyCredParams: [
+                    {"type": "public-key", "alg": -7}, 
+                    {"type": "public-key", "alg": -257}
+                ],
+                authenticatorSelection: {
+                    "residentKey": "preferred", 
+                    "requireResidentKey": false, 
+                    "userVerification": "required"
+                },
+                timeout: 60000,
+                attestation: "none", 
+                extensions: {"credProps": true}
+            };
+
+            const credential = await navigator.credentials.create({
+                publicKey: publicKeyCredentialCreationOptions
+            });
+            console.log(credential)
+        }
+
+        auth()
+    </script>
+</body>
+</html>
